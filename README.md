@@ -17,7 +17,7 @@ BlackSwan Credit Terminal addresses the critical limitations of traditional cred
 
 Traditional credit ratings are updated infrequently, based on opaque methodologies, and often lag behind real-world events. This platform transforms this by leveraging high-frequency, heterogeneous public data to create dynamic creditworthiness assessments that investors and regulators can trust because they understand the reasoning behind each score.
 
-*No more "trust us, we're the experts" now you can actually see why we think what we think* 🔍
+
 
 ## 🏗️ System Architecture
 
