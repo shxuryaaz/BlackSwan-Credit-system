@@ -516,7 +516,7 @@ FROM score
 WHERE ts > NOW() - INTERVAL '24 hours';
 ```
 
-## 🚀 Deployment & MLOps Excellence
+##Deployment & MLOps Excellence
 
 ### Production Architecture
 ```yaml
