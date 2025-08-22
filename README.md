@@ -1,24 +1,23 @@
 # BlackSwan Credit Terminal
 
-**CredTech Hackathon 2024 - Team BlackSwan**  
-*Powered by Deep Root Investments*
+**CredTech Hackathon 2025 - Team BlackSwan**  
+*(not really a team lol its just me)*
 
-A real-time explainable credit intelligence platform that revolutionizes creditworthiness assessment through AI-powered multi-source data fusion, transparent scoring methodologies, and interactive analytics.
+A real-time explainable credit intelligence platform that analyses creditworthiness assessment through AI-powered multi-source data pipelines, transparent scoring system(no blackbox), and interactive analytics.
 
-*Because waiting 3 months for a credit rating update is so 2023* 🚀
 
-## 🎯 Project Overview
+## Project Overview
 
-BlackSwan Credit Terminal addresses the critical limitations of traditional credit rating agencies by building a comprehensive, real-time credit intelligence system that:
+BlackSwan Credit Terminal addresses the critical limitations of traditional credit rating agencies by building a real-time credit intelligence system that:
 
 - **Reacts faster than traditional ratings** through continuous data ingestion
 - **Provides transparent explanations** without black-box methodologies  
 - **Integrates multiple data sources** including structured financial data and unstructured news events
 - **Delivers actionable insights** through an intuitive analyst dashboard
 
-Traditional credit ratings are updated infrequently, based on opaque methodologies, and often lag behind real-world events. Our platform transforms this by leveraging high-frequency, heterogeneous public data to create dynamic creditworthiness assessments that investors and regulators can trust because they understand the reasoning behind each score.
+Traditional credit ratings are updated infrequently, based on opaque methodologies, and often lag behind real-world events. This platform transforms this by leveraging high-frequency, heterogeneous public data to create dynamic creditworthiness assessments that investors and regulators can trust because they understand the reasoning behind each score.
 
-*No more "trust us, we're the experts" - now you can actually see why we think what we think!* 🔍
+*No more "trust us, we're the experts" now you can actually see why we think what we think* 🔍
 
 ## 🏗️ System Architecture
 
@@ -27,7 +26,7 @@ Traditional credit ratings are updated infrequently, based on opaque methodologi
 Our architecture was carefully designed to meet the demanding requirements of real-time credit intelligence:
 
 **Backend Framework**: **FastAPI** chosen for its:
-- High-performance async capabilities (10x faster than Flask - because speed matters when money's involved!)
+- High-performance async capabilities (10x faster than Flask because speed matters when money's involved)
 - Automatic API documentation generation
 - Type safety with Pydantic models
 - Native async/await support for concurrent data processing
@@ -39,8 +38,8 @@ Our architecture was carefully designed to meet the demanding requirements of re
 - Real-time event processing capabilities
 
 **Database**: **PostgreSQL + TimescaleDB** combination provides:
-- Time-series optimization for financial data (because time is literally money)
-- ACID compliance for data integrity (no "oops, we lost your credit score" moments)
+- Time-series optimization for financial data 
+- ACID compliance for data integrity (no oops we lost your credit score lol)
 - Advanced indexing for fast queries
 - Native JSON support for flexible schemas
 
@@ -72,7 +71,7 @@ Our architecture was carefully designed to meet the demanding requirements of re
 **Microservices vs Monolith**: We chose a service-oriented architecture with separate API, workers, and frontend services to enable:
 - Independent scaling of components
 - Technology flexibility for different services
-- Fault isolation (worker failures don't affect API - because Murphy's Law is real)
+- Fault isolation (worker failures don't affect API because Murphy's Law is real)
 - **Trade-off**: Increased complexity vs better scalability and maintainability
 
 **PostgreSQL vs NoSQL**: Selected PostgreSQL over MongoDB/Cassandra because:
@@ -86,11 +85,11 @@ Our architecture was carefully designed to meet the demanding requirements of re
 - Batch processing for bulk financial data updates
 - **Trade-off**: Higher complexity vs optimal performance for different data types
 
-## 🚀 Core Features & Implementation
+## Core Features & Implementation
 
 ### 1. High-Throughput Data Ingestion & Processing (20% Weight)
 
-**Multi-Source Data Integration** - We implemented robust ingestion from multiple sources as required:
+**Multi-Source Data Integration** - implemented robust ingestion from multiple sources as required:
 
 **Structured Data Sources (2+ implemented)**:
 - **Yahoo Finance API**: Real-time stock prices, volumes, P/E ratios, debt-to-equity ratios
@@ -103,7 +102,7 @@ Our architecture was carefully designed to meet the demanding requirements of re
 - **Manual News Upload**: Custom text analysis for demonstration and testing
 
 **Fault Tolerance & Error Handling**:
-- Exponential backoff retry mechanisms for API failures (because APIs are like cats - sometimes they just don't want to cooperate)
+- Exponential backoff retry mechanisms for API failures
 - Circuit breaker patterns for data source outages
 - Graceful degradation when individual sources are unavailable
 - Comprehensive logging and monitoring for all data pipelines
@@ -182,13 +181,12 @@ News: "Apple announces record quarterly earnings"
 → Impact Weight: +8.0 points
 → Score Update: 87.5 → 95.2 (AAA rating)
 
-*See? Even our AI gets excited about good earnings!* 📈
 ```
 
 ### 5. Interactive Analyst Dashboard (15% Weight)
 
 **Bloomberg Terminal-Style Interface**:
-- **Professional Dark Theme**: Financial industry standard aesthetics (because bankers love dark themes - it matches their souls)
+- **Professional Dark Theme**: Financial industry standard aesthetics (because bankers love dark themes it matches their souls especially for people like me)
 - **Real-time Updates**: 5-second polling for live data refresh
 - **Interactive Visualizations**: Recharts-based charts with drill-down capabilities
 - **Responsive Design**: Optimized for desktop, tablet, and mobile
@@ -235,12 +233,12 @@ News: "Apple announces record quarterly earnings"
 
 **Technical Innovations**:
 - **Hybrid Processing**: Optimal balance of real-time and batch processing
-- **Non-LLM Explainability**: Transparent reasoning without black-box AI
+- **Non-LLM Explainability**: Transparent reasoning without blackbox AI
 - **Event-Driven Architecture**: Immediate response to market events
 - **Time-Series Optimization**: Specialized database design for financial data
 
 ## 📊 Data Flow Architecture
-
+*gave up making this after 4 hours so made gpt make it lol*
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
 │  External APIs  │    │  Data Ingestion │    │   Processing    │
@@ -388,7 +386,6 @@ export DATABASE_URL=postgresql://user:pass@prod-db:5432/credtech
 4. **Optional**: Select specific issuer ID for targeted analysis
 5. **Real-time Results**: View immediate score impact and explanation
 
-*Perfect for testing those "what if" scenarios that keep analysts up at night* 😴
 
 **Example News Analysis**:
 ```
@@ -399,7 +396,7 @@ Output:
 - Score Change: 47.2 → 53.7
 - Explanation: Strong delivery performance indicates operational efficiency
 
-*Elon would be proud of our analysis speed* 🚗⚡
+*Elon would be proud of my analysis speed lol*
 ```
 
 ### Production Data Pipeline Features
@@ -557,7 +554,7 @@ services:
 - **Rollback Strategy**: Instant rollback capability for model regressions
 - **Performance Monitoring**: Continuous model drift detection
 
-## 🏆 Hackathon Deliverables & Evaluation Alignment
+## Hackathon Deliverables & Evaluation Alignment
 
 ### ✅ **Complete Requirements Fulfillment**
 
@@ -597,45 +594,30 @@ services:
 - ✅ Custom news upload for analyst testing
 - ✅ Advanced time-series database optimization
 
-### 🎯 **Competitive Advantages**
+### **Competitive Advantages**
 
-1. **Technical Excellence**: Production-ready architecture with comprehensive testing (we actually test our code - shocking, we know!)
+1. **Technical Excellence**: Production-ready architecture with comprehensive testing
 2. **User Experience**: Professional Bloomberg-style interface exceeding industry standards  
-3. **Explainability**: Transparent, non-LLM approach building user trust (no "AI magic" here)
-4. **Performance**: Sub-5-second response times for real-time market events (because patience is not a virtue in finance)
+3. **Explainability**: Transparent, non-LLM approach building user trust (no "AI ka magic" here)
+4. **Performance**: Sub-5-second response times for real-time market events
 5. **Scalability**: Designed for hundreds of issuers with horizontal scaling
 6. **Innovation**: Unique hybrid approach combining multiple explainability methods
 
-### 📈 **Business Impact Potential**
-
-- **Market Opportunity**: $2.3B credit rating industry disruption potential (because disruption is just innovation with better PR)
-- **Cost Reduction**: 70% faster than traditional rating updates
-- **Risk Mitigation**: Early warning system preventing credit surprises (no more "surprise!" moments)
-- **Regulatory Compliance**: Transparent methodology meeting regulatory requirements
-
 ## 👥 Team & Contact
 
-**Team BlackSwan** - CredTech Hackathon 2024
+**BlackSwan** - CredTech Hackathon 2025
 
-Specialized in:
-- **Full-Stack Development**: Modern web technologies and microservices
-- **Financial Engineering**: Credit risk modeling and quantitative analysis  
-- **Data Science**: Machine learning and explainable AI implementations
-- **DevOps**: Production deployment and monitoring systems
+Shaurya Singh Linkedin - [https://www.linkedin.com/in/shauryasingh28/](https://www.linkedin.com/in/shauryasingh28/)
+shauryajps@gmail.com
 
-*We're like the Avengers of fintech - each with our own superpower, but together we're unstoppable* 💪
+
+*Blackswan baby hell yeah this is the team that will be unpredictable for this hackathon* 💪
 
 **Repository**: [https://github.com/shxuryaaz/BlackSwan-Credit-system](https://github.com/shxuryaaz/BlackSwan-Credit-system)
 
-**Live Demo**: [Deployed Application URL]
+**Live Demo**: Link will be out soon 
 
 ---
 
-**Built for CredTech Hackathon 2024**  
-*Powered by Deep Root Investments*
-
-*Revolutionizing credit intelligence through transparent, real-time analysis*
-
-*P.S. If you're still reading this, you're probably a judge. Hi! 👋 We hope you like what you see!* 😄
 
 
