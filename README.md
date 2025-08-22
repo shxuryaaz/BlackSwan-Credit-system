@@ -611,7 +611,7 @@ Shaurya Singh Linkedin - [https://www.linkedin.com/in/shauryasingh28/](https://w
 shauryajps@gmail.com
 
 
-*Blackswan baby hell yeah this is the team that will be unpredictable for this hackathon* 💪
+*Blackswan baby hell yeah this is the team that will be unpredictable for this hackathon* 
 
 **Repository**: [https://github.com/shxuryaaz/BlackSwan-Credit-system](https://github.com/shxuryaaz/BlackSwan-Credit-system)
 
