@@ -5,6 +5,20 @@
 
 A real-time explainable credit intelligence platform that analyses creditworthiness assessment through AI-powered multi-source data pipelines, transparent scoring system(no blackbox), and interactive analytics.
 
+---
+
+## 📊 Dashboard
+[![blackswan-terminal.png](https://i.postimg.cc/nhz4Hr5J/blackswan-terminal.png)](https://postimg.cc/nCyj2FpR)
+
+---
+
+## 📑 Credit Profile
+[![Screenshot-2025-08-22-at-10-10-07-PM.png](https://i.postimg.cc/NFKts11X/Screenshot-2025-08-22-at-10-10-07-PM.png)](https://postimg.cc/wRYZFR4x)
+
+### 📰 News and Events
+[![Screenshot-2025-08-22-at-10-10-21-PM.png](https://i.postimg.cc/zf3YSCcc/Screenshot-2025-08-22-at-10-10-21-PM.png)](https://postimg.cc/d7MfJyv2)
+
+---
 
 ## Project Overview
 
