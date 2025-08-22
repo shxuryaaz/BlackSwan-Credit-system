@@ -3,7 +3,7 @@
 **CredTech Hackathon 2025 - Team BlackSwan**  
 *(not really a team lol its just me)*
 
-A real-time explainable credit intelligence platform that analyses creditworthiness assessment through AI-powered multi-source data pipelines, transparent scoring system(no blackbox), and interactive analytics.
+A real-time explainable credit intelligence platform that analyses creditworthiness assessment through AI-powered multi-source data pipelines, transparent scoring system(no blackbox), and interactive analytics. (yes it can actually do allat)
 
 ---
 
